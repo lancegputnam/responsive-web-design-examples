@@ -1,0 +1,54 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    margin-left: 25px;
+}
+
+/*html{
+    font-size: 62.5%; 
+}
+*/
+.header {
+    left: 57%; 
+    text-align: center;
+    margin-left: 25px;
+}
+
+.internetPhoto {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.newVideo {
+    max-width: 80%;
+    margin-left: 12%;
+    margin-top: 40px;
+}
+
+.headLine {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.headLineTwo {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+
+/*#headLine {
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    left: 57%; 
+}*/
+
+/*.headLine h1 {
+    display: block;
+    width: 100%;
+}*/
