@@ -64,13 +64,17 @@
         </script>
 
         <div class="descriptionImage"> 
-            <img 
-                src="http://images.rcp.realclearpolitics.com/200295_5_.jpg"
-                srcset="http://images.sixrevisions.com/2009/11/19-05_yahoo2002.jpg media="(min-width:1000px)", 
-                http://www.cyberconinc.com/wp-content/uploads/2014/03/yahoo-web-design.jpg media="(min-width: 800px)"" 
-                alt="Beautful Interfaces" 
-            />
+            <picture>
+                <source srcset="http://www.cyberconinc.com/wp-content/uploads/2014/03/yahoo-web-design.jpg" media="(min-width: 800px)">
+                <source srcset="http://images.rcp.realclearpolitics.com/200295_5_.jpg" media="(min-width: 600px)">
+                <img srcset="http://images.sixrevisions.com/2009/11/19-05_yahoo2002.jpg" alt="Beautiful Interfaces">
+            </picture>
         </div>
+
+        <script>
+            document.createElement( "picture" );
+        </script>
+        <script src="scripts/picturefill.min.js" async></script> 
 
 
         <!-- build:js scripts/vendor.js -->
