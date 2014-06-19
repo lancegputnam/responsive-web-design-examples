@@ -5,54 +5,39 @@ body {
 }
 
 .header {
-    margin-left: 25px;
-}
-
-/*html{
-    font-size: 62.5%; 
-}
-*/
-.header {
     left: 57%; 
     text-align: center;
-    margin-left: 25px;
+    margin-left: 3%;
 }
 
 .internetPhoto {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 2.188em;
 }
 
 .newVideo {
     max-width: 80%;
     margin-left: 12%;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .headLine {
-    margin-bottom: 0px;
+    margin-bottom: 0em;
     width: 100%;
 }
 
 .headLineTwo {
-    margin-bottom: 20px;
+    margin-bottom: 1.250em;
     width: 50%;
 }
 
-.descriptionImage {
-    margin-left: 375px;
-    margin-top: 40px;
+.descriptionImage img {
+    margin-left: 29%;
+    margin-top: 2.5em;
+    width: 50%;
 }
 
+@media screen and (max-width: 600px)  {
+    .descriptionImage img {float: left;}
+}
 
-/*#headLine {
-    position: absolute;
-    width: 100%;
-    top: 28%;
-    left: 57%; 
-}*/
-
-/*.headLine h1 {
-    display: block;
-    width: 100%;
-}*/
