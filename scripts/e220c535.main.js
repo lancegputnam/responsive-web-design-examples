@@ -1,0 +1,1 @@
+$(window).resize(function(){$(window).width()<=600&&$(".internetPhoto").hide(),$(window).width()>=600&&$(".internetPhoto").show()});
